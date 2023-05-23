@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    /* border: 0.5px solid currentColor; */
+    border: 0.5px solid currentColor;
 }
 body{
     background-color: #500;
@@ -14,6 +14,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 nav{
     margin-top: 0.5rem;
@@ -34,8 +35,10 @@ ul{
     position: sticky;
 }
 a{
+    display: flex;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 main{
     display: flex;
@@ -44,7 +47,7 @@ main{
     /*height: 55rem;*/
 }
 footer{
-    align-self: baseline;
+    /*align-self: baseline;*/
     height: 3.5rem;
     width: 100%;
     display: flex;
@@ -80,8 +83,7 @@ h1{
 
 #home{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 .foto-inicio{
     width: 34rem;
@@ -95,6 +97,13 @@ h1{
 .foto-galeria{
     width: 34rem;
     height: auto;
+}
+#galeria{
+    width: 100vh;
+}
+#galeria-titulos{
+    display: flex;
+    text-align: center;
 }
 section{
     width: auto;
@@ -110,6 +119,7 @@ aside{
     align-items: flex-end;
     color: white;
 }
+
 
 /*about */
 #about{
