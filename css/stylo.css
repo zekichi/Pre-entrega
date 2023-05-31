@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    border: 0.5px solid currentColor;
+    /*border: 0.5px solid currentColor;*/
 }
 body{
     background-color: #500;
@@ -61,6 +61,7 @@ footer{
 h1, h2{
     font-family: 'Poppins', sans-serif;
     color: rgba(173, 171, 171, 0.925);
+    text-align: center;
 }
 h1{
     font-size: 4rem;
@@ -80,7 +81,7 @@ h1{
     margin-left: 1rem;
 }
  
-/*home*/
+/* -----home---- */
 
 #home{
     display: grid;
@@ -97,12 +98,16 @@ h1{
     width: 20rem;
 }
 
+<<<<<<< HEAD
 
 
 /* Galeria */
+=======
+/* -----Galeria----- */
+>>>>>>> 33da616af1d897bbecb8bb69cb7e9520ccc9046c
 
 .foto-galeria{
-    width: 34rem;
+    width: auto;
     height: auto;
 }
 #galeria{
