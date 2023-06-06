@@ -51,8 +51,10 @@ main p {
   padding-left: 3rem;
   padding-right: 3rem; }
 
-main .container .row .col .foto-inicio {
-  width: 26rem; }
+main .container {
+  margin-bottom: 3rem; }
+  main .container .row .col .foto-inicio {
+    width: 26rem; }
 
 main form {
   width: 24rem;
