@@ -60,9 +60,6 @@ main{
             .col{
                 .foto-inicio{
                     width: 26rem;
-                    &:hover{
-                        width: 105%;
-                    }
                 }
             }
         }
@@ -94,7 +91,14 @@ main{
         }
 
     }
-
+    #encabezado{
+        font-size: 1.5rem;
+    }
+    .row{
+        background-color: $row;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
 }
 input[type="text"],
 input[type="email"],
@@ -129,6 +133,7 @@ footer{
         display: flex;
         justify-content: space-around;
         li{
+            padding-top: 1rem;
             color: $fondoHover;
             font-size: x-large;
         }

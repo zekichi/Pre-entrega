@@ -13,21 +13,36 @@
 </head>
 <body>
     <header id="top">
-        <a href="../index.html"><h1>Fotografia EQ</h1></a>
-        <hr>
-        <h2>Ultimos Trabajos</h2>
-        <nav>
-            <ul>
-                <il><a href="#" class="active">Inicio</a></il>
-                <il><a href="about.html">Info</a></il>
-                <il><a href="galeria.html">Galeria</a></il>
-                <il><a href="contact.html">Contacto</a></il>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="../index.html"><h1>Fotografia EQ</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ultimas Novedades</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="./galeria.html">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <hr>
+          <h2>Ultimos Trabajos</h2>
 
     </header>
     <main>
-        <p>Aquí encontraras una serie de los ultimos trabajos que eh realizado. Aqui podras ver con precisión que el lo que estoy buscando en mis ultimas fotos y cual es el estilo en el que me estoy moviendo </p>
+        <p id="encabezado">Aquí encontraras una serie de los ultimos trabajos que eh realizado. Aqui podras ver con precisión que el lo que estoy buscando en mis ultimas fotos y cual es el estilo en el que me estoy moviendo </p>
         <section class="container">
             <section class="row">
                 <aside class="col">
@@ -35,9 +50,17 @@
                     <p>28/7/2022</p>
                 </aside>
                 <aside class="col">
-                    <img src="../assets/foto-inicio2.jpg" alt="Retratro de chica sentada a la orilla del lago" class="foto-inicio">
-                    <p>07/08/2022</p>
+                    <p></p>
+
                 </aside>
+            </section>
+            <section class="row">
+                    <aside class="col">
+                        <img src="../assets/foto-inicio2.jpg" alt="Retratro de chica sentada a la orilla del lago" class="foto-inicio">
+                        <p>07/08/2022</p>
+                    </aside>
+            </section>
+            <section class="row">
                 <aside class="col">
                     <img src="../assets/foto-inicio3.jpg" alt="Retrato de chico sentado en sillon" class="foto-inicio">
                     <p>05/09/2022</p>
