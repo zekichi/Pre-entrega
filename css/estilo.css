@@ -123,3 +123,11 @@ footer {
       padding-top: 1rem;
       color: #59546C;
       font-size: x-large; }
+
+@media (max-width: 900px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .row .col {
+      width: 90%; } }

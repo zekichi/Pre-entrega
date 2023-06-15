@@ -139,3 +139,13 @@ footer{
         }
     }
 }
+@media(max-width:900px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .col{
+            width: 90%;
+        }
+    }
+}
